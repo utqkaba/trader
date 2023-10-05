@@ -1,7 +1,11 @@
-export default function App() {
+import MainCard from "./components/MainCard";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      It's a payment project!
-    </h1>
-  )
+    <div className='flex flex-col h-screen items-center justify-center bg-gray-300'>
+      <MainCard />
+    </div>
+  );
 }
+
+export default App;
