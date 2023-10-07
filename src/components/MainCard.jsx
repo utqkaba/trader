@@ -5,7 +5,7 @@ import { BlInput, BlButton } from "@trendyol/baklava/dist/baklava-react";
 
 function MainCard() {
   return (
-    <div className='flex flex-col h-3/4 w-3/12 items-center justify-center bg-slate-400 text-white border-2 border-white rounded-lg'>
+    <div className='flex flex-col p-6 h-auto w-2/6 items-center justify-center bg-gray-400 text-white border-2 border-white rounded-lg bg-opacity-10'>
       <Header />
       <div className='p-6'>
         <BlInput type="number" label="Amount" size="large" required icon="price_settings"></BlInput>
